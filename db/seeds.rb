@@ -28,5 +28,48 @@ c5 = Cohort.create(
 puts "Seeding students..."
 # TODO: create seed data for students
 # check your schema and make sure to create students with all the necessary data
+Student.create(name: "ben", age: 7, cohort_id: 1)
+Student.create(name: "jill", age: 4, cohort_id: 1)
+Student.create(name: "tim", age: 11, cohort_id: 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 puts "Done!"
